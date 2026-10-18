@@ -1,0 +1,9 @@
+# 本地私有资料及凭据
+private/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+__pycache__/

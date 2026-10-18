@@ -1,0 +1,18 @@
+{
+  "schema_version": "0.1",
+  "sources": [
+    {
+      "source_id": "src-example-undated-001",
+      "is_example": true,
+      "publisher": "虚构示例机构",
+      "author": null,
+      "title": "结构演示，不构成车型证据",
+      "url": "https://example.com/vehicle-demo",
+      "published_at": null,
+      "accessed_at": null,
+      "origin_group": "example-origin",
+      "locator": "虚构示例",
+      "rights": "不可作为发布素材"
+    }
+  ]
+}

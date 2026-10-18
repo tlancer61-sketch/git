@@ -1,0 +1,32 @@
+{
+  "schema_version": "0.1",
+  "is_example": true,
+  "vehicle_id": "example-2026-base",
+  "market": "CN",
+  "brand": "虚构品牌",
+  "series": "示例车系",
+  "model_year": 2026,
+  "powertrain": null,
+  "trim": "示例配置",
+  "lifecycle": "unknown",
+  "facts": [
+    {
+      "fact_id": "guide-price",
+      "kind": "public_fact",
+      "value": null,
+      "unit": "CNY",
+      "conditions": {
+        "city": null,
+        "price_type": "guide",
+        "payment": null,
+        "subsidy": null,
+        "reason": "未录入真实价格"
+      },
+      "source_ids": [],
+      "official_confirmation": "unknown",
+      "verification": "pending",
+      "checked_at": null,
+      "valid_until": null
+    }
+  ]
+}
