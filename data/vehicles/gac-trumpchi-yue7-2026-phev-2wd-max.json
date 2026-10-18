@@ -1,0 +1,72 @@
+{
+  "schema_version": "0.1",
+  "is_example": false,
+  "vehicle_id": "gac-trumpchi-yue7-2026-phev-2wd-max",
+  "market": "CN",
+  "brand": "广汽传祺",
+  "series": "传祺越7",
+  "model_year": 2026,
+  "powertrain": "PHEV",
+  "trim": "两驱Max版",
+  "lifecycle": "on_sale",
+  "facts": [
+    {
+      "fact_id": "guide-price",
+      "kind": "public_fact",
+      "value": 185800,
+      "unit": "CNY",
+      "conditions": {
+        "price_type": "guide",
+        "city": null,
+        "payment": null,
+        "subsidy": null,
+        "source_scope": "2026-09-22首发价格；不等于成交价"
+      },
+      "source_ids": [
+        "src-y7-ah-launch",
+        "src-y7-pc-price"
+      ],
+      "official_confirmation": "unknown",
+      "verification": "single_source",
+      "checked_at": "2026-10-19T00:00:00+08:00",
+      "valid_until": null
+    },
+    {
+      "fact_id": "announced-benefit-price",
+      "kind": "public_fact",
+      "value": 177800,
+      "unit": "CNY",
+      "conditions": {
+        "price_type": "quote",
+        "city": null,
+        "payment": null,
+        "subsidy": null,
+        "reason": "上市/限时权益报道；2026-10-19是否仍适用、叠加条件、截止期均待书面确认"
+      },
+      "source_ids": [
+        "src-y7-ah-launch"
+      ],
+      "official_confirmation": "unknown",
+      "verification": "single_source",
+      "checked_at": "2026-10-19T00:00:00+08:00",
+      "valid_until": null
+    },
+    {
+      "fact_id": "cltc-electric-range",
+      "kind": "public_fact",
+      "value": 261,
+      "unit": "km",
+      "conditions": {
+        "test_method": "CLTC",
+        "reason": "媒体配置解读，非实测；待官方配置表"
+      },
+      "source_ids": [
+        "src-y7-ah-guide"
+      ],
+      "official_confirmation": "unknown",
+      "verification": "single_source",
+      "checked_at": "2026-10-19T00:00:00+08:00",
+      "valid_until": null
+    }
+  ]
+}

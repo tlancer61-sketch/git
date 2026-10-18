@@ -1,0 +1,104 @@
+{
+  "schema_version": "0.1",
+  "is_example": false,
+  "vehicle_id": "gac-trumpchi-yue7-2026-phev-4wd-satellite",
+  "market": "CN",
+  "brand": "广汽传祺",
+  "series": "传祺越7",
+  "model_year": 2026,
+  "powertrain": "PHEV",
+  "trim": "四驱卫星通信版",
+  "lifecycle": "on_sale",
+  "facts": [
+    {
+      "fact_id": "guide-price",
+      "kind": "public_fact",
+      "value": 225800,
+      "unit": "CNY",
+      "conditions": {
+        "price_type": "guide",
+        "city": null,
+        "payment": null,
+        "subsidy": null,
+        "source_scope": "2026-10-16新增版本报道"
+      },
+      "source_ids": [
+        "src-y7-it-satellite",
+        "src-y7-pc-price",
+        "src-y7-ah-satellite"
+      ],
+      "official_confirmation": "unknown",
+      "verification": "single_source",
+      "checked_at": "2026-10-19T00:00:00+08:00",
+      "valid_until": null
+    },
+    {
+      "fact_id": "announced-benefit-price",
+      "kind": "public_fact",
+      "value": 217800,
+      "unit": "CNY",
+      "conditions": {
+        "price_type": "quote",
+        "city": null,
+        "payment": null,
+        "subsidy": null,
+        "reason": "上市/限时权益报道；2026-10-19是否仍适用、叠加条件、截止期均待书面确认"
+      },
+      "source_ids": [
+        "src-y7-it-satellite"
+      ],
+      "official_confirmation": "unknown",
+      "verification": "single_source",
+      "checked_at": "2026-10-19T00:00:00+08:00",
+      "valid_until": null
+    },
+    {
+      "fact_id": "cltc-electric-range",
+      "kind": "public_fact",
+      "value": null,
+      "unit": "km",
+      "conditions": {
+        "test_method": "CLTC",
+        "reason": "平台展示259km但工况未在已读正文明确，暂不填入CLTC"
+      },
+      "source_ids": [],
+      "official_confirmation": "unknown",
+      "verification": "pending",
+      "checked_at": "2026-10-19T00:00:00+08:00",
+      "valid_until": null
+    },
+    {
+      "fact_id": "dual-chamber-air-suspension",
+      "kind": "public_fact",
+      "value": true,
+      "unit": null,
+      "conditions": {
+        "reason": "媒体转述配置，适用订单及保修范围待确认"
+      },
+      "source_ids": [
+        "src-y7-it-satellite"
+      ],
+      "official_confirmation": "unknown",
+      "verification": "single_source",
+      "checked_at": "2026-10-19T00:00:00+08:00",
+      "valid_until": null
+    },
+    {
+      "fact_id": "satellite-communication",
+      "kind": "public_fact",
+      "value": true,
+      "unit": null,
+      "conditions": {
+        "system": "天通一号（媒体转述）",
+        "reason": "服务开通、套餐费用、覆盖及实车交付待确认"
+      },
+      "source_ids": [
+        "src-y7-it-satellite"
+      ],
+      "official_confirmation": "unknown",
+      "verification": "single_source",
+      "checked_at": "2026-10-19T00:00:00+08:00",
+      "valid_until": null
+    }
+  ]
+}
